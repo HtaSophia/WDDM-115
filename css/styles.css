@@ -1,0 +1,34 @@
+/* Centralize all the elements inside the body and change the body background color */
+body {
+  text-align: center;
+  background-color: #efcfc6;
+}
+
+/* Change the span font size and color inside the paragraph tag*/
+p span {
+  font-weight: bold;
+  background-color: black;
+}
+
+/* Add a yellow color to the span tag that has the yellow class */
+span.yellow {
+  color: yellow;
+}
+
+/* Add a green color to the span tag that has the green class */
+span.green {
+  color: green;
+}
+
+/* Centralize all the elements inside the paragraph tag */
+/* p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+/* Centralize the image inside the section tag */
+section.cat-image {
+  display: flex;
+  justify-content: center;
+}
