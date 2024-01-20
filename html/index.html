@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WDDM 115 - Exercise 1</title>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap"
+            rel="stylesheet">
     </head>
 
     <body>
-        <!-- Add my name in the h1 tag -->
-        <h1>Aghata Truta</h1>
+        <main>
+            <section class="introduction">
+                <!-- div to separate the info and image into two columns -->
+                <div class="personal-info">
+                    <!-- My name -->
+                    <h1>Aghata Truta</h1>
 
-        <!-- Add a paragraph tag with some information about myself -->
-        <p>
-            <!-- Add a span tag in the paragraph to change the color of the word -->
-            <!-- span element was not discussed in class -->
-            I'm from <span class="yellow">Bra</span><span class="green">zil</span>.
-            <br>I'm a WDDM student.
-            <br>I like playing video/board games.
-            <br>I have three cats.
-        </p>
+                    <!-- Paragraph with some information about myself -->
+                    <p>
+                        I'm from Brazil.
+                        I like playing video/board games. Most of the games I
+                        play are action-adventure and puzzle games.
+                        I have three cats. Their names are: Junior, Branquinho
+                        and Nino.
+                    </p>
 
-        <!-- Add a section tag with an image of a cat -->
-        <!-- section element was not discussed in class -->
-        <section class="cat-image">
-            <!-- Add a image of a cat, with a width of 320px, that I saved in the assets folder -->
-            <img src="/assets/cat.webp" width="320" />
-        </section>
+                </div>
+
+                <div class="cat-image">
+                    <!-- Add a image of a cat -->
+                    <figure>
+                        <img src="/assets/images/cat.png" alt="Black kitten" />
+                        <figcaption>
+                            <small>
+                                Image by <a
+                                    href="https://pixabay.com/users/nhudaibnumukhtar-8022978/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3169476">Huda
+                                    Nur</a> from <a
+                                    href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3169476">Pixabay</a>
+                            </small>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="professional-info">
+                <br>I've been working as a Full Stack Developer for almost 5
+                years.
+                <br>I have a bachelor's degree in Computer Science and am now
+                studying Web Design and Development.
+                <br>I'm improving my web development skill set and learning more
+                about design.
+            </section>
+        </main>
     </body>
 </html>
