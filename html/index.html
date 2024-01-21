@@ -15,27 +15,34 @@
 
     <body>
         <main>
-            <section class="introduction">
-                <!-- div to separate the info and image into two columns -->
-                <div class="personal-info">
-                    <!-- My name -->
-                    <h1>Aghata Truta</h1>
+            <section class="professional-info">
+                <!-- Wrap to define a maximum width for elements on the screen -->
+                <div class="wrap">
+                    <!-- div to separate the info and image into two columns -->
+                    <div class="info">
+                        <!-- My name -->
+                        <h1>Aghata Truta</h1>
 
-                    <!-- Paragraph with some information about myself -->
-                    <p>
-                        I'm from Brazil.
-                        I like playing video/board games. Most of the games I
-                        play are action-adventure and puzzle games.
-                        I have three cats. Their names are: Junior, Branquinho
-                        and Nino.
-                    </p>
+                        <!-- Paragraph with some of my professional information -->
+                        <p class="important">
+                            I have a bachelor's degree in Computer Science and
+                            am now studying Web Design and Development. I've
+                            been working as a full stack developer.
+                        </p>
 
-                </div>
+                        <p>
+                            My current program is a certificate that lasts until
+                            August 2024. I'm improving my web development skill
+                            set, learning about design and new
+                            tools/technologies. My professional goal is to
+                            become a tech leader with a front-end
+                            specialization.
+                        </p>
+                    </div>
 
-                <div class="cat-image">
-                    <!-- Add a image of a cat -->
-                    <figure>
-                        <img src="/assets/images/cat.png" alt="Black kitten" />
+                    <figure class="cat-image">
+                        <img src="/assets/images/cat.png"
+                            alt="Black kitten" />
                         <figcaption>
                             <small>
                                 Image by <a
@@ -48,13 +55,24 @@
                 </div>
             </section>
 
-            <section class="professional-info">
-                <br>I've been working as a Full Stack Developer for almost 5
-                years.
-                <br>I have a bachelor's degree in Computer Science and am now
-                studying Web Design and Development.
-                <br>I'm improving my web development skill set and learning more
-                about design.
+            <!-- Section with some of my personal information -->
+            <section class="personal-info">
+                <div class="wrap">
+                    <h2>Personal Information</h2>
+                    <ul>
+                        <li>I'm from Brazil</li>
+                        <li>
+                            I like playing video/board games. Most of the games
+                            I
+                            play are action-adventure and puzzle games
+                        </li>
+                        <li>
+                            I have three cats. Their names are: Junior,
+                            Branquinho
+                            and Nino
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
     </body>
