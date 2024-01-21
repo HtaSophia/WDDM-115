@@ -71,6 +71,10 @@ figure.cat-image {
   margin-bottom: 2.5rem;
 }
 
+.personal-info ul li {
+  margin-bottom: 1rem;
+}
+
 footer {
   color: white;
   background-color: #5e5c60;
