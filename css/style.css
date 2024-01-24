@@ -10,6 +10,10 @@ a {
   color: #5DD967;
 }
 
+a.link_text:hover{
+  color: #d7e0ff;
+}
+
 p {
   color: #292033;
 }
