@@ -91,5 +91,11 @@ footer {
 
 figcaption{margin-top: 15px;}
 
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .left-side{float: left;}
 .right-side{float: right;}
