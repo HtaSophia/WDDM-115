@@ -99,3 +99,33 @@ figcaption{margin-top: 15px;}
 
 .left-side{float: left;}
 .right-side{float: right;}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    li {
+      margin-right: 2rem;
+
+      a {
+        text-decoration: none;
+        color: #7B45B5;
+
+        &:hover {
+          color: #fe9a52;
+        }
+      }
+    }
+  }
+  .contacts {
+    img {
+      height: 2rem;
+    }
+  }
+}
